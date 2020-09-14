@@ -42,7 +42,7 @@ export default class MovieDetails extends React.Component {
     return (
       <div>
         <div className="wrapper">
-          <div className="header headerMenu">
+          <div className="headerMenu">
             <ul><div className="floatleft">
               <li className="special_text" onClick={() => this.props.history.push("/")}><a href ="#0"><i className="fa fa-angle-double-left" aria-hidden="true"></i> Back</a></li>
             </div>

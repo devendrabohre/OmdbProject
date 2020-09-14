@@ -118,7 +118,7 @@ export default class HomePage extends React.PureComponent {
     let movies = this.state.isHomeView ? this.state.movies : this.state.favMovies;
     return (
       <div className="wrapper">
-        <div className="header headerMenu">
+        <div className="headerMenu">
           <ul><div className="floatleft">
             <li className="special_text" onClick={() => this.isHomeView(true)}>
               <a className={this.state.isHomeView ? "active" : ""} href ="#0">
